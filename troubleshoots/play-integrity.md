@@ -39,7 +39,7 @@ Follow these steps carefully. The exact order and success can sometimes depend o
 ### Step 2: Installing modules & pif
 - Download and install [ReZygisk](https://github.com/PerformanC/ReZygisk/releases/latest) (Turn of the build-in zygisk if you have magisk) and [PlayIntegrityFixFork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest). Then reboot.
 
-After rebooting, click on the action button on the module. This will update the play integrity fingerprints (Pif)
+- After rebooting, click on the action button on the module. This will update the play integrity fingerprints (Pif)
 
 * ***Now your device should pass BASIC & DEVICE integrity!*** *
 
