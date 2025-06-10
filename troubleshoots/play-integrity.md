@@ -9,7 +9,7 @@ Now a days, Play integrity is a big issue. Google is imposing heavy restrictions
 
 * **`MEETS_BASIC_INTEGRITY`**: Checks if the device is generally free from known malware and basic rooting. This is relatively easy to pass.
 * **`MEETS_DEVICE_INTEGRITY`**: Checks the integrity of the device's hardware and software, looking for signs of tampering, such as unlocked bootloaders, custom ROMs, or active root. **This is the primary target for custom ROM users.**
-* **`MEETS_STRONG_INTEGRITY`**: This is a hardware-backed security check that uses a secure key. It's almost impossible to pass if you have an unlocked bootloader or custom ROM, as it verifies the device's factory-level integrity. Most users with custom ROMs won't be able to achieve this.
+*. **`MEETS_STRONG_INTEGRITY`**: This is a hardware-backed security check that uses a secure key. It's almost impossible to pass if you have an unlocked bootloader or custom ROM, as it verifies the device's factory-level integrity. Most users with custom ROMs won't be able to achieve this.
 
 **Our goal is to pass `MEETS_DEVICE_INTEGRITY` and `MEETS_BASIC_INTEGRITY`.**
 
@@ -41,9 +41,7 @@ Follow these steps carefully. The exact order and success can sometimes depend o
 
 - After rebooting, click on the action button on the module. This will update the play integrity fingerprints (Pif)
 
-* ***Now your device should pass BASIC & DEVICE integrity!*** *
-
-🎯 **Now you should have your all three intergrity passing**
+🎯***Now your device should pass BASIC & DEVICE integrity!***
 
 >[!TIP]
 > If you want play store to show device certified then just clear play store data.
