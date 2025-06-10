@@ -24,33 +24,29 @@ Play Integrity will typically fail on devices with:
 * Modified System Partitions
 
 
-## 🚀 3 Steps to Pass Google Play Integrity
+## 🚀 2 Steps to Pass Device Integrity
+#### *Working as of 11/06/2005* 
 > [!NOTE]
 > You must have either Magisk/KSU or apach installed on your device. If you don't have any of these then you can't proceed with the fix
 Follow these steps carefully. The exact order and success can sometimes depend on your device and ROM.
 
-### Step 1: Turn of build in spoofing
+### Step 1: Turn of build in spoofing (if applicable)
 
 1.  Open misclenous/spoofing settings of your rom
 2.  Turn of the settings with name **PI spoof** or **GSM Spoof**
 3.  Reboot
 
-### Step 2: Installing modules
+### Step 2: Installing modules & pif
+- Download and install [ReZygisk](https://github.com/PerformanC/ReZygisk/releases/latest) (Turn of the build-in zygisk if you have magisk) and [PlayIntegrityFixFork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest). Then reboot.
 
-Download and install the following modules in the same order
-- [Zygisk next](https://github.com/Dr-TSNG/ZygiskNext/releases/latest) : Only if you are on KSU/apach, reboot needed
-- [PlayIntegrityFork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest)
-- [TrickyStore](https://github.com/5ec1cff/TrickyStore/releases/latest)
-- [Integrity-Box](https://github.com/MeowDump/Integrity-Box/releases/latest)
+After rebooting, click on the action button on the module. This will update the play integrity fingerprints (Pif)
 
-### Step 3 : Clearing cached data
-After installing all the modules, clear the play store & google play services data.
-**Finally, reboot**
+* ***Now your device should pass BASIC & DEVICE integrity!*** *
 
 🎯 **Now you should have your all three intergrity passing**
 
-> [!Important]
-> If your apps does not require strong integrity, then please switch to AOSP keybox by clicking on the action button below the module name and choosing the AOSP keybox option.
+>[!TIP]
+> If you want play store to show device certified then just clear play store data.
 
 
 ## 🐛 Troubleshooting & Common Issues
