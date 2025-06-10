@@ -41,6 +41,8 @@ After that, reffer to [universal_flashing_guide](universal_flashing-instrutions.
 
 [Device Bootloops & Fixes](/troubleshoots/bootloops.md)
 
+[Play Integrity fix](/troubleshoots/play-integrity.md)
+
 [ADB/Fastboot Not Recognizing Device](/troubleshoots/adb-fastboot-fix.md)
 
 [Connectivity Problems (Wi-Fi, Bluetooth)](/troubleshoots/firmware.md)
