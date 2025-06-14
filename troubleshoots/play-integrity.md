@@ -38,7 +38,7 @@ Follow these steps carefully. The exact order and success can sometimes depend o
 3.  Reboot
 
 ### Step 2: Installing modules & pif
-- Download and install [ReZygisk](https://github.com/PerformanC/ReZygisk/releases/latest) (Turn of the build-in zygisk if you have magisk) and [PlayIntegrityFixFork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest). Then reboot.
+- Download and install [ReZygisk](https://github.com/PerformanC/ReZygisk/releases/latest) (Turn of the build-in zygisk if you have magisk) and then [PlayIntegrityFixFork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest), [LSpose](https://github.com/LSPosed/LSPosed/releases/latest) and [Core patch](https://github.com/LSPosed/CorePatch/releases/latest) all three together, Then reboot.
 
 - After rebooting, click on the action button on the module. This will update the play integrity fingerprints (Pif)
 
